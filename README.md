@@ -1,5 +1,8 @@
 # Using this vim configuration
-Clone into the <code>.vim</code> directory. Make sure to backup any existing Vim configuration if present.
+**Make sure to backup any existing Vim configuration if present.**
+
+## Clone the configuration files
+    git clone https://github.com/richardnuno/vim-config.git ~/.vim
 
 ## Install Vundle
     git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
