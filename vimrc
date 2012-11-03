@@ -128,7 +128,7 @@ nnoremap <silent> <leader>gb :Gblame<CR>
 nnoremap <silent> <leader>gl :Glog<CR>
 
 " ctrlp
-let g:ctrlp_working_path_mode = 2
+let g:ctrlp_working_path_mode = 'r'
 let g:ctrlp_map = '<D-N>'
 let g:ctrlp_custom_ignore = {
       \ 'dir':  '\.git$\|\.hg$\|\.svn$',
