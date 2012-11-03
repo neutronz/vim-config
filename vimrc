@@ -106,6 +106,7 @@ vnoremap < <gv
 vnoremap > >gv
 
 " Ctags
+set tags=./tags;/,~/.vimtags
 " Generate ctags when the file is saved
 autocmd BufLeave,FocusLost * silent! !ctags -R &
 
