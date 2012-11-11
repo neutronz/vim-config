@@ -105,6 +105,7 @@ map ]<Space> o<Esc>
 vnoremap < <gv
 vnoremap > >gv
 
+nnoremap <silent> <Space> :set hlsearch!<CR>
 " Ctags
 set tags=./tags;/,~/.vimtags
 " Generate ctags when the file is saved
