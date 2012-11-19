@@ -28,6 +28,14 @@ Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
 Bundle 'godlygeek/tabular'
 Bundle 'Lokaltog/vim-easymotion'
 
+" Snipmate dependencies
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "honza/snipmate-snippets"
+
+" Snipmate
+Bundle "garbas/vim-snipmate"
+
 " brew install ctags in order to use tagbar
 if executable('ctags')
   Bundle 'majutsushi/tagbar'
