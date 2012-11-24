@@ -57,6 +57,10 @@ set showmode                    " display the current mode
 set nobackup
 set noswapfile
 
+" Don't beep
+set visualbell
+set noerrorbells
+
 autocmd BufNewFile,BufRead *.scss set filetype=css
 autocmd BufNewFile,BufRead *.sass set filetype=css
 " Save file after FocusLost
