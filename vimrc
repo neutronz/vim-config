@@ -47,6 +47,7 @@ syntax on
 set mouse=a
 scriptencoding utf-8
 set history=1000
+set undolevels=1000
 set hidden
 
 set tabpagemax=10               " only show 10 tabs
