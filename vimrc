@@ -53,6 +53,10 @@ set hidden
 set tabpagemax=10               " only show 10 tabs
 set showmode                    " display the current mode
 
+" Don't create swap and backup files
+set nobackup
+set noswapfile
+
 autocmd BufNewFile,BufRead *.scss set filetype=css
 autocmd BufNewFile,BufRead *.sass set filetype=css
 " Save file after FocusLost
