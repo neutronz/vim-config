@@ -11,7 +11,6 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 " Bundles
-Bundle 'AutoClose'
 Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
