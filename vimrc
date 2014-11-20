@@ -14,13 +14,17 @@ Bundle 'gmarik/vundle'
 Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'kien/ctrlp.vim'
+
 Bundle 'tpope/vim-rails.git'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-bundler'
+
 Bundle 'leshill/vim-json'
 Bundle 'slim-template/vim-slim'
 Bundle 'pangloss/vim-javascript'
@@ -34,6 +38,8 @@ Bundle "honza/vim-snippets"
 
 " Snipmate
 Bundle "garbas/vim-snipmate"
+
+Plugin 'kchmck/vim-coffee-script'
 
 " brew install ctags in order to use tagbar
 if executable('ctags')
@@ -140,6 +146,9 @@ let g:nerdtree_tabs_open_on_gui_startup=0
 
 " NerdCommenter
 map <leader>/  <plug>NERDCommenterInvert
+
+" NerdTreeTabs
+map <leader>n <plug>NERDTreeTabsToggle<CR>
 
 " Fugitive
 nnoremap <silent> <leader>gs :Gstatus<CR>
