@@ -25,6 +25,7 @@ Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-haml'
 Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-endwise'
 
 Bundle 'leshill/vim-json'
 Bundle 'slim-template/vim-slim'
