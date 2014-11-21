@@ -32,6 +32,7 @@ Bundle 'slim-template/vim-slim'
 Bundle 'pangloss/vim-javascript'
 Bundle 'godlygeek/tabular'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'terryma/vim-multiple-cursors'
 
 " Snipmate dependencies
 Bundle "MarcWeber/vim-addon-mw-utils"
